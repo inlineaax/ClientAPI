@@ -38,6 +38,7 @@ Para começar com este projeto, siga estas etapas:
 Visualizações do navegador:
 
 RabbitMQ - http://localhost:15672/
+
 MongoExpress - http://localhost:8081/
 
 ## Sobre
