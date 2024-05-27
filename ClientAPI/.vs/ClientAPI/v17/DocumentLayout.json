@@ -1,0 +1,61 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Inline\\source\\repos\\ClientAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{13C8B358-1711-4EE5-B001-3A889DD1D56B}|ClientAPI.API\\ClientAPI.API.csproj|c:\\users\\inline\\source\\repos\\clientapi\\clientapi.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13C8B358-1711-4EE5-B001-3A889DD1D56B}|ClientAPI.API\\ClientAPI.API.csproj|solutionrelative:clientapi.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13C8B358-1711-4EE5-B001-3A889DD1D56B}|ClientAPI.API\\ClientAPI.API.csproj|c:\\users\\inline\\source\\repos\\clientapi\\clientapi.api\\controllers\\clientscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13C8B358-1711-4EE5-B001-3A889DD1D56B}|ClientAPI.API\\ClientAPI.API.csproj|solutionrelative:clientapi.api\\controllers\\clientscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Inline\\source\\repos\\ClientAPI\\ClientAPI.API\\Program.cs",
+              "RelativeDocumentMoniker": "ClientAPI.API\\Program.cs",
+              "ToolTip": "C:\\Users\\Inline\\source\\repos\\ClientAPI\\ClientAPI.API\\Program.cs",
+              "RelativeToolTip": "ClientAPI.API\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T21:39:51.563Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ClientsController.cs",
+              "DocumentMoniker": "C:\\Users\\Inline\\source\\repos\\ClientAPI\\ClientAPI.API\\Controllers\\ClientsController.cs",
+              "RelativeDocumentMoniker": "ClientAPI.API\\Controllers\\ClientsController.cs",
+              "ToolTip": "C:\\Users\\Inline\\source\\repos\\ClientAPI\\ClientAPI.API\\Controllers\\ClientsController.cs",
+              "RelativeToolTip": "ClientAPI.API\\Controllers\\ClientsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T21:37:06.892Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

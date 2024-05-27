@@ -1,0 +1,317 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Inline\\source\\repos\\ClientAPI\\ClientAPI.CrossCutting\\ClientAPI.CrossCutting.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Inline\\source\\repos\\ClientAPI\\ClientAPI.Application\\ClientAPI.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Inline\\source\\repos\\ClientAPI\\ClientAPI.Application\\ClientAPI.Application.csproj",
+        "projectName": "ClientAPI.Application",
+        "projectPath": "C:\\Users\\Inline\\source\\repos\\ClientAPI\\ClientAPI.Application\\ClientAPI.Application.csproj",
+        "packagesPath": "C:\\Users\\Inline\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Inline\\source\\repos\\ClientAPI\\ClientAPI.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Inline\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Inline\\source\\repos\\ClientAPI\\ClientAPI.Domain\\ClientAPI.Domain.csproj": {
+                "projectPath": "C:\\Users\\Inline\\source\\repos\\ClientAPI\\ClientAPI.Domain\\ClientAPI.Domain.csproj"
+              },
+              "C:\\Users\\Inline\\source\\repos\\ClientAPI\\ClientAPI.Infrastructure\\ClientAPI.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\Inline\\source\\repos\\ClientAPI\\ClientAPI.Infrastructure\\ClientAPI.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.9.1, )"
+            },
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[11.9.1, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Inline\\source\\repos\\ClientAPI\\ClientAPI.CrossCutting\\ClientAPI.CrossCutting.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Inline\\source\\repos\\ClientAPI\\ClientAPI.CrossCutting\\ClientAPI.CrossCutting.csproj",
+        "projectName": "ClientAPI.CrossCutting",
+        "projectPath": "C:\\Users\\Inline\\source\\repos\\ClientAPI\\ClientAPI.CrossCutting\\ClientAPI.CrossCutting.csproj",
+        "packagesPath": "C:\\Users\\Inline\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Inline\\source\\repos\\ClientAPI\\ClientAPI.CrossCutting\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Inline\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Inline\\source\\repos\\ClientAPI\\ClientAPI.Application\\ClientAPI.Application.csproj": {
+                "projectPath": "C:\\Users\\Inline\\source\\repos\\ClientAPI\\ClientAPI.Application\\ClientAPI.Application.csproj"
+              },
+              "C:\\Users\\Inline\\source\\repos\\ClientAPI\\ClientAPI.Domain\\ClientAPI.Domain.csproj": {
+                "projectPath": "C:\\Users\\Inline\\source\\repos\\ClientAPI\\ClientAPI.Domain\\ClientAPI.Domain.csproj"
+              },
+              "C:\\Users\\Inline\\source\\repos\\ClientAPI\\ClientAPI.Infrastructure\\ClientAPI.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\Inline\\source\\repos\\ClientAPI\\ClientAPI.Infrastructure\\ClientAPI.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Inline\\source\\repos\\ClientAPI\\ClientAPI.Domain\\ClientAPI.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Inline\\source\\repos\\ClientAPI\\ClientAPI.Domain\\ClientAPI.Domain.csproj",
+        "projectName": "ClientAPI.Domain",
+        "projectPath": "C:\\Users\\Inline\\source\\repos\\ClientAPI\\ClientAPI.Domain\\ClientAPI.Domain.csproj",
+        "packagesPath": "C:\\Users\\Inline\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Inline\\source\\repos\\ClientAPI\\ClientAPI.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Inline\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Inline\\source\\repos\\ClientAPI\\ClientAPI.Infrastructure\\ClientAPI.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Inline\\source\\repos\\ClientAPI\\ClientAPI.Infrastructure\\ClientAPI.Infrastructure.csproj",
+        "projectName": "ClientAPI.Infrastructure",
+        "projectPath": "C:\\Users\\Inline\\source\\repos\\ClientAPI\\ClientAPI.Infrastructure\\ClientAPI.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Inline\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Inline\\source\\repos\\ClientAPI\\ClientAPI.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Inline\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Inline\\source\\repos\\ClientAPI\\ClientAPI.Domain\\ClientAPI.Domain.csproj": {
+                "projectPath": "C:\\Users\\Inline\\source\\repos\\ClientAPI\\ClientAPI.Domain\\ClientAPI.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "None",
+              "target": "Package",
+              "version": "[7.0.19, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[7.0.19, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.19, )"
+            },
+            "Microsoft.Extensions.Hosting.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.25.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "RabbitMQ.Client": {
+              "target": "Package",
+              "version": "[6.8.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
