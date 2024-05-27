@@ -29,7 +29,7 @@ Para começar com este projeto, siga estas etapas:
 4. Execute o seguinte comando para construir e executar os contêineres do Docker:
  
  ```C#
- `docker-compose up -d`
+ docker-compose up -d
  ```
 
 5. Abra a solução do projeto.
