@@ -27,8 +27,10 @@ Para começar com este projeto, siga estas etapas:
 2. Certifique-se de ter o Docker instalado e iniciado.
 3. Abra um terminal e navegue até o diretório raiz do projeto.
 4. Execute o seguinte comando para construir e executar os contêineres do Docker:
-
-`docker-compose up -d`
+ 
+ ```C#
+ `docker-compose up -d`
+ ```
 
 5. Abra a solução do projeto.
 6. Rode o projeto.
